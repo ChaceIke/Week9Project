@@ -2,7 +2,7 @@ h1 {
     margin:0%
 }
 
-body {
+#home-page {
     background-image: url(DogBackground.jpg);
     background-size: cover;
 }

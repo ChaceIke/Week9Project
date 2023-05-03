@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container" id="home-page">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-them="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">CoreTM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary" href="About.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu text-primary">
+                  <li><a class="dropdown-item text-primary" href="contact.html">Contact</a></li>
+                  <li><a class="dropdown-item text-danger" href="instagram.html">Instagram</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+     </nav>
+      <div class="row">
+        <div class="col-md-4">
+            <img class="img-fluid" id="dog-fed-up" src="Images/DogFedUp.jpg" alt="dog">
+        </div>
+        <div class="col-md-8 bg-secondary text-white"> <p>Hi! Welcome to our website. We sell the highest grade dog food in the United States and are dedicated to YOUR furry friend's health and well-being. Our team of scientists are passionate and thorough when it comes to their work because they understand how important dogs are in our lives. Here's the best part: WE'RE AFFORDABLE! Contact us online or find us in stores near you!</p>
+          <img id="dog-looking-up" src="Images/DogFoodDry.jpg" alt="Dog looking up at owner">
+          <img id="dog-with-food" src="Images/DogWithFood.jpg" alt="Dog with food">
+        </div>
+    </div>
+   
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!--Minified is better for production code.-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

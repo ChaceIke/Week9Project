@@ -1,0 +1,36 @@
+h1 {
+    margin:0%
+}
+
+#home-page {
+    background-image: url(Images/DogBackground.jpg);
+    background-size: cover;
+}
+
+#about-page {
+    background-image: url(Images/DogInGrass.jpg);
+    background-size: cover;
+}
+
+#dog-looking-up {
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: aqua;
+    padding: 5px;
+}
+
+#dog-with-food {
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-color: aqua;
+    padding: 5px;
+}
+
+#dog-fed-up {
+    background-color: aqua;
+    padding: 5px;
+}
